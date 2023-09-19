@@ -1,0 +1,258 @@
+.primary-navbar{
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    justify-content: space-between;
+}
+.secondary-navbar{
+    height: 40px;
+    background-color: #232f3e;
+    color: white;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+body{
+    background-color: rgb(215, 224, 231);
+}
+.hero-section{
+    height: 650px;
+}
+.hero-section img{
+    width: 100%;
+    height: 700px;
+}
+.logo{
+    height: 45px;
+}
+.icons{
+    height: 25px;
+    margin-right: 5px;
+}
+.grey{
+    color: grey;
+}
+body{
+    margin: 0px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+}
+.search-section{
+    height: 40px;
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+}
+.search-section button{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.search-section select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    width: 50px;
+}
+.search-section h2{
+    color: black;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    background-color: lightgray;
+}
+.search-section input{
+    border: none;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 16px
+}
+.search-section button{
+    border: none;
+    background-color: #febd69;
+}
+.search-section img{
+    height: 30px;
+}
+.flex{
+    display: flex;
+}
+.secondary-navbar a{
+    color: white;
+    text-decoration: none;
+}
+.category1 .box{
+    width: 20%;
+    min-width: 20%;
+    box-shadow: 0px 0px 2px black;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+.category1{
+    display: flex;
+    margin-top: -310px;
+    justify-content: space-evenly;
+}
+.category1 .flex{
+    justify-content: space-between;
+    padding: 15px;
+}
+.item{
+    width: 45%;
+}
+.item img{
+    width: 100%;
+}
+.box a{
+    text-decoration: none;
+}
+.category2 .box{
+    width: 20%;
+    min-width: 20%;
+    box-shadow: 0px 0px 2px black;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+.category2{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.category2 .flex{
+    justify-content: space-between;
+    padding: 15px;
+}
+.item{
+    width: 45%;
+}
+.item img{
+    width: 100%;
+}
+.box a{
+    text-decoration: none;
+}
+.category4 .box{
+    width: 20%;
+    min-width: 20%;
+    box-shadow: 0px 0px 2px black;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+.category4{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.category4 .flex{
+    justify-content: space-between;
+    padding: 15px;
+}
+.category3 .box{
+    width: 20%;
+    min-width: 20%;
+    box-shadow: 0px 0px 2px black;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+.category3{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.category3 .flex{
+    justify-content: space-between;
+    padding: 15px;
+}
+.flexwatch{
+    padding: 10px;
+    width: 100%;
+}
+.flexwatch .itemwatch{
+    width: 90%;
+}
+.itemwatch img{
+    width: 100%;
+}
+/*
+.category3{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 400px;
+    margin: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px black;
+}
+*/
+footer{
+    margin-top: 20px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 30px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid #37475a;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-logo{
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+}
